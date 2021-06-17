@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noto+Sans+KR:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+
+h1{
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    font-weight: 800;
+}
+
+
+
+.logo{
+    padding: 20px;
+    display: flex;
+    justify-items: center;
+}
+
+
+.nav{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 30px;
+}
+
+.print{
+    display: flex;
+     position: relative;
+      left: 90%;
+      color: gray;
+      gap: 15px;
+      
+}
+
+form{
+    background-image: url(/assets/list-bg.png);
+    display: flex;
+    justify-content: space-around;
+    font-size: 110%;
+    padding: 30px;
+    font-family: 'Pangolin', cursive;
+    
+}
+.aboutMe{
+    display: flex;
+    
+}
+button{
+    position: absolute;
+    right: 20px;
+    text-align: center;
+    padding: 15px 33px;
+    color:whitesmoke;
+    background-color: brown;
+    border: none;
+   
+    
+ }
+ footer hr {     
+    background: url('https://github.com/waleedafifi90/amman-201d28/blob/main/class-10/lab-a/lab-assets/small-logo.png?raw=true') no-repeat top center;
+    background-size: contain;
+    display: block;
+    height: 30px;
+    border: 0;
+    width: 50%;
+    position: relative; 
+    }
+
+ 
+ footer p{
+     text-align: center;
+     color: darkgrey;
+ }
+
+
+ hr{
+     border-style:dashed;
+     border-width: 2px;
+     color: gray;
+ }
