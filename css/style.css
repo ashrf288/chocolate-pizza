@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noto+Sans+KR:wght@100&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
-
+body{
+    margin-right: 20%;
+    margin-left: 10%;
+}
 
 h1{
     font-family: 'Dancing Script';
@@ -24,6 +27,7 @@ h1{
     position: absolute;
     right: 0px;
     top: 30px;
+    margin-right: 20%;
 }
 
 .print{
@@ -42,10 +46,13 @@ form{
     font-size: 110%;
     padding: 30px;
     font-family: 'Pangolin', cursive;
+    box-shadow: 0px 10px gray;
+    margin-bottom: 30px;
     
 }
 .aboutMe{
     display: flex;
+    margin-right: 10%;
     
 }
 button{
@@ -60,13 +67,14 @@ button{
     
  }
  footer hr {     
-    background: url('https://github.com/waleedafifi90/amman-201d28/blob/main/class-10/lab-a/lab-assets/small-logo.png?raw=true') no-repeat top center;
+    background: url('/assets/small-logo.png') no-repeat top center;
     background-size: contain;
     display: block;
     height: 30px;
     border: 0;
     width: 50%;
     position: relative; 
+    
     }
 
  
