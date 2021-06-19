@@ -36,11 +36,15 @@ h1{
 }
 
 form{
-    background-image: url(/assets/list-bg.png);
+    padding: 20px;
+    background-image: url('/assets/list-bg.png');
+    background-repeat: no-repeat;
+     background-position-x: center;
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
+    gap: 20px;
     font-size: 110%;
-    padding: 30px;
+   margin-bottom:10px ;
     font-family: 'Pangolin', cursive;
     
 }
@@ -60,7 +64,7 @@ button{
     
  }
  footer hr {     
-    background: url('https://github.com/waleedafifi90/amman-201d28/blob/main/class-10/lab-a/lab-assets/small-logo.png?raw=true') no-repeat top center;
+    background: url('/assets/small-logo.png') no-repeat top center;
     background-size: contain;
     display: block;
     height: 30px;
